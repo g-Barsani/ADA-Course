@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas no HTML</h1>
+
+        <section id="students">
+            <h2>Tabela de Alunos</h2>
+
+            <table border="1">
+                <!-- thead são os nomes das colunas -->
+                <thead>
+                    <!-- tr são as células  (rows) do thead -->
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <!-- tbody é conteúdo da tabela -->
+                <tbody>
+                    <tr>
+                        <td>João Honesto</td>
+                        <td>joao.honest@gmail.com</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Gideão</td>
+                        <td>gideon@gmail.com</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pinóquio</td>
+                        <td>pinoquio@gmail.com</td>
+                        <td>3</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+
+        <section id="finance">
+            <table border="1">
+                <thead>
+                    <th>Data</th>
+                    <th>Tipo</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </thead>
+
+                <tbody>
+                    <!-- tr são as rows da table -->
+                    <tr>
+                        <!-- td são as colunas (data) da table -->
+                        <!-- rowspan mescla 2 rows -->
+                        <td rowspan="2">15/06/2022</td>
+                        <td>Despesa</td>
+                        <td>Almoço</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$ 3.768,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
